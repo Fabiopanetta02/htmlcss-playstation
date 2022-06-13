@@ -6,5 +6,14 @@
 
 
 /* Generics */
+header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
 
+#sony-logo{
+    width: 100px;
+}
 /* Utils */
