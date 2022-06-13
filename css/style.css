@@ -57,6 +57,13 @@ MAIN
     background-color: var(--darkblue);
 }
 
+/************
+FOOTER
+*************/
+footer{
+    background-color: var(--blue);
+}
+
 /* Utils */
 .my-row{
     height: 500px;
