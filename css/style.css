@@ -53,6 +53,10 @@ MAIN
     background-color: var(--grey);
 }
 
+.bg-dark-blue{
+    background-color: var(--darkblue);
+}
+
 /* Utils */
 .my-row{
     height: 500px;
