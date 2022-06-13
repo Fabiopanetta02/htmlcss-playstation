@@ -33,10 +33,13 @@ MAIN
     background-size: cover;
 }
 
-.card-rounded{
+/* .card-rounded{
     height: 100px;
-}
+} */
 
+.play-5{
+    width: 95%;
+}
 
 /* Utils */
 .my-row{
