@@ -45,7 +45,16 @@ MAIN
     background-size: cover;
 }
 
+.bg-dark-grey{
+    background-color: #1F1F1F;
+    
+}
+
 /* Utils */
 .my-row{
     height: 500px;
+}
+
+.sup-tm{
+    font-size: 10px;
 }
