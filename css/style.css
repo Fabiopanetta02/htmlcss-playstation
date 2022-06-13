@@ -46,8 +46,11 @@ MAIN
 }
 
 .bg-dark-grey{
-    background-color: #1F1F1F;
-    
+    background-color: #1F1F1F; 
+}
+
+.bg-grey{
+    background-color: var(--grey);
 }
 
 /* Utils */
@@ -57,4 +60,10 @@ MAIN
 
 .sup-tm{
     font-size: 10px;
+}
+
+
+.my-btn{
+    background-color: #D9DADC;
+    color: #0D6EFD;
 }
