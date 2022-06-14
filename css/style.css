@@ -99,6 +99,9 @@ footer{
 /************
 EFFETTI HOVER
 *************/
+.games:hover{
+    cursor: pointer;
+}
 
 /* Button */
 header .button:hover{
