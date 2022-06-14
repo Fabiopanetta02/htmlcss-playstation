@@ -25,19 +25,15 @@ header{
 MAIN 
 *************/
 #jumbotron{
-    padding-top: 120px;
+    padding-top: 125px;
 }
 
 .bg-returnal{
     background-image: url(../img/jumbo-bg.png);
-    height: 500px;
+    min-height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.play-5{
-    width: 95%;
 }
 
 .bg-it-take-two{
@@ -87,6 +83,10 @@ footer{
     transition: transform 1s;
 }
 
+#social div.col-6{
+    transition: transform 1s;
+}
+
 .cards-play-5{
     opacity: 0.5;
 }
@@ -105,7 +105,7 @@ EFFETTI HOVER
 
 /* Button */
 header .button:hover{
-    box-shadow: 0 0 0 2px #6C757D;
+    box-shadow: 0 0 0 2px #000;
     border-radius: 50rem;
 }
 
@@ -149,4 +149,9 @@ header .button:hover{
 
 .cards-play-5:hover hr{
     visibility: visible;
+}
+
+
+#social div.col-6:hover{
+    transform: scale(1.1);
 }
