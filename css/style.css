@@ -6,6 +6,9 @@
 
 
 /* Generics */
+/************
+HEADER
+*************/
 header{
     position: fixed;
     right: 0;
@@ -57,6 +60,7 @@ MAIN
     background-color: var(--darkblue);
 }
 
+
 /************
 FOOTER
 *************/
@@ -64,17 +68,82 @@ footer{
     background-color: var(--blue);
 }
 
+
 /* Utils */
 .my-row{
-    height: 500px;
+   min-height: 400px;
 }
 
 .sup-tm{
     font-size: 10px;
 }
 
-
 .my-btn{
     background-color: #D9DADC;
     color: #0D6EFD;
+}
+
+.cards-jumbotron{
+    transition: transform 1s;
+}
+
+.cards-play-5{
+    opacity: 0.5;
+}
+
+.cards-play-5 hr{
+    visibility: hidden;
+}
+
+
+/************
+EFFETTI HOVER
+*************/
+
+/* Button */
+header .button:hover{
+    box-shadow: 0 0 0 2px #6C757D;
+    border-radius: 50rem;
+}
+
+.button-red:hover{
+    box-shadow: 0 0 0 2px #DC3545;
+    border-radius: 50rem;
+}
+
+.button-blue:hover{
+    box-shadow: 0 0 0 2px #0D6EFD;
+    border-radius: 50rem;
+}
+
+.my-btn:hover{
+    background-color: #D9DADC;
+    color: #0D6EFD;
+    border-color: transparent;
+}
+
+.button-grey:hover{
+    box-shadow: 0 0 0 2px #D9DADC;
+    border-radius: 50rem;
+}
+
+.button-white:hover{
+    box-shadow: 0 0 0 2px #fff;
+    border-radius: 50rem;
+}
+
+
+/* Cards */
+.cards-jumbotron:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.cards-play-5:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.cards-play-5:hover hr{
+    visibility: visible;
 }
