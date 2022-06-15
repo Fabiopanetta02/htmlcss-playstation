@@ -31,7 +31,7 @@ MAIN
 .bg-returnal{
     background-image: url(../img/jumbo-bg.png);
     min-height: 500px;
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
